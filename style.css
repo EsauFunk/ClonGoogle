@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: end;
+}
+.enlace{
+    display: flex;
+    padding: 0 15px 0 0;
+}
+.gmail, .images{
+    align-self: center;
+    font-size: 14px;
+    padding: 0 0 0 15px;
+}
+.enlace a{
+    font: 13px/27px Roboto,Arial,sans-serif;
+    color: #202124;
+}
+.menu{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.menu:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: 0.2s;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon img{
+    width: 272px;
+    height: 92px;
+    margin: 198px 0 0 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    outline: none;
+    padding: 0 8px 0 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 46px;
+    width: 60%;
+    transition: 0.2s;
+}
+input:hover{
+    box-shadow: 0 0 5px rgb(176, 176, 176);
+}
+.bellhop{
+    display: flex;
+}
+button{
+    height: 36px;
+    border: none;
+    background-color: rgba(239, 239, 239, 0.508);
+    color: rgb(76, 76, 76);
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+    transition: 0.1s;
+}
+button:hover{
+    border: 1px solid rgb(174, 174, 174);
+    box-shadow: 0 1px 1px rgb(224, 224, 224);
+    cursor: pointer;
+}
+.empty{
+    flex-grow: 1;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.other{
+    background: #f2f2f2;
+}
+.Country{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 15px;
+}
+li a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+}
